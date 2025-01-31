@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border: 1px solid red;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+}
+.content-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-fichier {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-user {
+  width: 100%;
+  background-color: #bfc5bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-fichier span {
+  font-weight: bold;
+}
+
+aside {
+  height: 85vh;
+  border: 1px solid green;
+  top: 0;
+}
+aside > a {
+  display: flex;
+  color: black;
+  text-transform: uppercase;
+  width: 100%;
+  justify-content: center;
+}
+aside > a:hover {
+  border: 1px solid red;
+  color: red;
+}
+
+/*# sourceMappingURL=acceuil.css.map */
